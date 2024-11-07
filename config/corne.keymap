@@ -19,11 +19,13 @@
     };
 
     behaviors {
-        hrm: home_row_mods {
+        rpi: require_prior_idle {
             compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <100>;
-            binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
 
@@ -42,7 +44,7 @@
             display-name = "Base";
             bindings = <
 &kp TAB    &kp Q           &kp W               &kp F           &kp P             &kp B      &kp J      &kp L              &kp U            &kp Y                &kp SEMICOLON    &kp LALT
-&kp CAPS   &hrm LEFT_GUI A  &hrm LEFT_CONTROL R  &hrm LEFT_ALT S  &hrm LEFT_SHIFT T  &kp G      &kp M      &hrm RIGhrm_SHIFT N  &hrm RIGhrm_ALT E  &hrm RIGhrm_CONTROL I  &hrm RIGhrm_GUI O  &kp SQT
+&kp CAPS   &rpi LEFT_GUI A  &rpi LEFT_CONTROL R  &rpi LEFT_ALT S  &rpi LEFT_SHIFT T  &kp G      &kp M      &rpi RIGrpi_SHIFT N  &rpi RIGrpi_ALT E  &rpi RIGrpi_CONTROL I  &rpi RIGrpi_GUI O  &kp SQT
 &kp LSHFT  &kp Z           &kp X               &kp C           &kp D             &kp V      &kp K      &kp H              &kp COMMA        &kp DOT              &kp FSLH         &kp LCTRL
                                                &mo 1           &kp LGUI          &kp RET    &kp SPACE  &kp BSPC           &mo 2
             >;
