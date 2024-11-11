@@ -45,7 +45,7 @@
             bindings = <
 &kp TAB   &kp Q            &kp W                &kp F            &kp P              &kp B      &kp J      &kp L               &kp U             &kp Y                 &kp SEMICOLON    &mo 3
 &kp CAPS  &rpi LEFT_ALT A  &rpi LEFT_CONTROL R  &rpi LEFT_GUI S  &rpi LEFT_SHIFT T  &kp G      &kp M      &rpi RIGHT_SHIFT N  &rpi RIGHT_GUI E  &rpi RIGHT_CONTROL I  &rpi LEFT_ALT O  &kp SQT
-&trans    &kp Z            &kp X                &kp C            &kp D              &kp V      &kp K      &kp H               &kp COMMA         &kp DOT               &kp FSLH         &trans
+&mo 4     &kp Z            &kp X                &kp C            &kp D              &kp V      &kp K      &kp H               &kp COMMA         &kp DOT               &kp FSLH         &mo 4
                                                 &mo 1            &trans             &kp RET    &kp SPACE  &kp BSPC            &mo 2
             >;
         };
@@ -88,6 +88,15 @@
 &ext_power EP_OFF  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &ext_power EP_ON   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                                &trans        &trans        &trans    &trans  &trans  &trans
+            >;
+        };
+
+        MODS {
+            bindings = <
+&trans  &trans    &trans     &trans    &trans     &trans    &trans  &trans     &trans    &trans     &trans    &trans
+&trans  &sk LALT  &sk LCTRL  &sk LGUI  &sk LSHFT  &trans    &trans  &sk RSHFT  &sk RGUI  &sk RCTRL  &sk LALT  &trans
+&trans  &trans    &trans     &trans    &trans     &trans    &trans  &trans     &trans    &trans     &trans    &trans
+                             &trans    &trans     &trans    &trans  &trans     &trans
             >;
         };
     };
