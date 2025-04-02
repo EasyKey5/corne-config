@@ -59,10 +59,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB    &kp STAR  &kp N7  &kp N8  &kp N9  &kp PLUS      &kp CARET    &kp AMPS     &kp LBKT              &kp RBKT  &kp DOLLAR  &trans
-&kp CAPS   &kp FSLH  &kp N4  &kp N5  &kp N6  &kp MINUS     &kp PERCENT  &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RPAR  &kp BSLH    &kp GRAVE
-&kp LSHFT  &kp N0    &kp N1  &kp N2  &kp N3  &kp EQUAL     &kp UNDER    &kp HASH     &kp LBRC              &kp RBRC  &kp PERIOD  &trans
-                             &trans  &trans  &kp PERIOD    &trans       &trans       &trans
+&kp TAB    &kp STAR            &kp N7                &kp N8                &kp N9         &kp PLUS      &kp CARET    &kp AMPS            &kp LBKT                             &kp RBKT                 &kp DOLLAR           &trans
+&kp CAPS   &rpi LEFT_ALT FSLH  &rpi LEFT_CONTROL N4  &rpi LEFT_COMMAND N5  &rpi LSHFT N6  &kp MINUS     &kp PERCENT  &rpi RSHFT AT_SIGN  &rpi RIGHT_COMMAND LEFT_PARENTHESIS  &rpi RIGHT_CONTROL RPAR  &rpi RIGHT_ALT BSLH  &kp GRAVE
+&kp LSHFT  &kp N0              &kp N1                &kp N2                &kp N3         &kp EQUAL     &kp UNDER    &kp HASH            &kp LBRC                             &kp RBRC                 &kp PERIOD           &trans
+                                                     &trans                &trans         &kp PERIOD    &trans       &trans              &trans
             >;
         };
 
