@@ -61,7 +61,7 @@
             bindings = <
 &kp TAB    &kp STAR            &kp N7                &kp N8                &kp N9         &kp PLUS      &kp CARET    &kp AMPS            &kp LBKT                             &kp RBKT                 &kp DOLLAR           &trans
 &kp CAPS   &rpi LEFT_ALT FSLH  &rpi LEFT_CONTROL N4  &rpi LEFT_COMMAND N5  &rpi LSHFT N6  &kp MINUS     &kp PERCENT  &rpi RSHFT AT_SIGN  &rpi RIGHT_COMMAND LEFT_PARENTHESIS  &rpi RIGHT_CONTROL RPAR  &rpi RIGHT_ALT BSLH  &kp GRAVE
-&kp LSHFT  &kp N0              &kp N1                &kp N2                &kp N3         &kp EQUAL     &kp UNDER    &kp HASH            &kp LBRC                             &kp RBRC                 &kp PERIOD           &trans
+&kp LSHFT  &kp N0              &kp N1                &kp N2                &kp N3         &kp EQUAL     &kp HASH     &kp UNDER           &kp LBRC                             &kp RBRC                 &kp PERIOD           &kp EXCL
                                                      &trans                &kp DEL        &kp PERIOD    &trans       &trans              &mo 3
             >;
         };
@@ -78,7 +78,7 @@
 &trans    &trans             &kp F7                &kp F8        &kp F9              &kp F10    &kp C_PLAY_PAUSE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans          &trans      &trans
 &kp HOME  &rpi LEFT_ALT END  &rpi LEFT_CONTROL F4  &rpi LCMD F5  &rpi LEFT_SHIFT F6  &kp F11    &kp LEFT          &kp DOWN              &kp UP                &kp RIGHT       &trans      &trans
 &kp INS   &kp DEL            &kp F1                &kp F2        &kp F3              &kp F12    &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp C_PREVIOUS  &kp C_NEXT  &trans
-                                                   &mo 3         &trans              &trans     &trans            &trans                &trans
+                                                   &mo 3         &trans              &trans     &trans            &kp DELETE            &trans
             >;
         };
 
